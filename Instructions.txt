@@ -1,6 +1,7 @@
 # Setting up zsh, oh-my-zsh, colorls on Mac.
 
-### 1. Install brew.
+--------------------------------------------------------------------------------------------------------------
+1. Install brew.
 
 Run this command on your terminal:
 
@@ -13,7 +14,8 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/dev/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
 
 
-### 2. Install zsh.
+--------------------------------------------------------------------------------------------------------------
+2. Install zsh.
 
 
 Install zsh using homebrew:
@@ -36,7 +38,8 @@ Verify your default shell:
 echo $SHELL
 
 
-### 03. Install Oh My ZSH.
+--------------------------------------------------------------------------------------------------------------
+03. Install Oh My ZSH.
 
 
 Copy and below command to your terminal and press enter to install Oh-My-ZSH:
@@ -49,12 +52,14 @@ Install PowerLevel10K theme:
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 
-### 04. Download FuraMono Nerd Font from above github repository and install it.
+--------------------------------------------------------------------------------------------------------------
+04. Download FuraMono Nerd Font from above github repository and install it.
 
 Go to terminal Preferences and change terminal font to FuraMono Nerd Font Regular.
 
 
-### 05. Install zsh-autosugestions and zsh-syntax-highlighting.
+--------------------------------------------------------------------------------------------------------------
+05. Install zsh-autosugestions and zsh-syntax-highlighting.
 
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
@@ -98,7 +103,8 @@ Configure Oh-My-ZSH:
 p10k configure
 
 
-### 05. Install colorls.
+--------------------------------------------------------------------------------------------------------------
+06. Install colorls.
 
 First install dependencies such as Ruby:
 
