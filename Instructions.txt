@@ -92,3 +92,37 @@ And now add the plugins which we downloaded, like this
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
+
+Configure Oh-My-ZSH:
+
+p10k configure
+
+
+### 05. Install colorls.
+
+First install dependencies such as Ruby:
+
+brew install ruby
+
+
+Add Ruby to your zsh PATH:
+
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+
+
+Now install clolorls software:
+
+sudo gem install colorls
+
+
+Finally add these lines to the end of your .zshrc file:
+
+alias ll='colorls -lA --sd --group-directories-first'
+alias ls='colorls --group-directories-first'
+
+
+Restart your terminal:
+
+source ~/.zshrc
+
+Resource: https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb
