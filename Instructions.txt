@@ -103,6 +103,9 @@ Configure Oh-My-ZSH:
 p10k configure
 
 
+Resource: https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb
+
+
 --------------------------------------------------------------------------------------------------------------
 06. Install colorls.
 
@@ -130,5 +133,3 @@ alias ls='colorls --group-directories-first'
 Restart your terminal:
 
 source ~/.zshrc
-
-Resource: https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb
