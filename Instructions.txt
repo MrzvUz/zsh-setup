@@ -129,6 +129,17 @@ Finally add these lines to the end of your .zshrc file:
 alias ll='colorls -lA --sd --group-directories-first'
 alias ls='colorls --group-directories-first'
 
+# General Aliases
+alias cls='clear'
+alias py='python3'
+alias zr='source ~/.zshrc'
+
+# Global Aliases
+alias -g L='| less'
+alias -g J='| jq'
+
+# Suffix Aliases
+alias -s {py,txt,go,js}='code'
 
 Restart your terminal:
 
