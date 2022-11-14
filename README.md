@@ -10,8 +10,9 @@
 
 #### Add brew to your zsh PATH:
 ```
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/dev/.zprofile                       
-    eval "$(/opt/homebrew/bin/brew shellenv)"
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/ali/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ali/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 --------------------------------------------------------------------------------------------------------------
